@@ -36,5 +36,5 @@ steps:
 - task: PublishPipelineArtifact@1
   displayName: 'Publish build artifacts'
   inputs:
-    artifactName: 'MovieApi'
+    artifactName: 'Lab3devops'
     targetPath: '$(Build.ArtifactStagingDirectory)'
