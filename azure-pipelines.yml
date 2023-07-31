@@ -25,10 +25,7 @@ steps:
     projects: '**/*.csproj'
     arguments: '--configuration $(BuildConfiguration)'
 
-- task: PowerShell@2
-  inputs:
-    targetType: 'inline'
-    script: 'ls'
+
 - task: DotNetCoreCLI@2
   displayName: 'Publish web app'
   inputs:
